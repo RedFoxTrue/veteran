@@ -2,50 +2,52 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #121921;
-  height: 60px;
+  background-color: $main-color;
+  height: 100px;
 }
 .menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
   width: 1300px;
   img {
-    height: 80%;
-    width: 150px;
+    width: 73px;
+    height: 74px;
     display: flex;
   }
-
   :last-child {
     margin-right: 0;
   }
 
   &__logo {
-    width: 40%;
+    margin-right: 80px;
     display: flex;
     align-items: center;
     justify-content: start;
   }
 
   &__list {
-    max-width: 60%;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     list-style-type: none;
     margin: 0;
   }
 
   &__link {
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    color: #fffefe;
-    font-family: 'Source Sans Pro';
-    font-size: 17px;
-    font-weight: 700;
-    letter-spacing: 2.24px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
     text-decoration: none;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
     margin-left: 0;
+    transition: 0.1s linear;
     &:hover {
-      color: #a50e18;
+      color: #ffffff;
+      font-size: 19px;
     }
     &:active {
       color: #a50e18;
@@ -55,9 +57,51 @@ header {
   &__item {
     display: flex;
     margin: 0;
-    margin-right: 25px;
+    margin-right: 60px;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  &__other {
+    display: flex;
+    order: 999;
+    margin-left: auto;
+    align-items: center;
+    .menu__link {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 400;
+      margin-right: 65px;
+    }
+    .donation {
+      width: 251px;
+      height: 66px;
+      border: 1px solid #ffffff;
+      text-decoration: none;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 400;
+      background-color: transparent;
+      transition: 0.2s linear;
+      &:hover {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        &:hover {
+          color: black;
+        }
+      }
+    }
   }
 }
 .hamburger {
   display: none;
+}
+.white {
+  font-size: 19px;
+  color: #ffffff;
 }
