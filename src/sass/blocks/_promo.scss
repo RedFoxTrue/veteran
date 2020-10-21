@@ -1,0 +1,33 @@
+.promo {
+  background: url('../img/promo_bg.jpg') center (center/cover) no-repeat;
+  padding: 175px 440px 243px 275px;
+  &__header {
+    margin: 0;
+    color: #fffefe;
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 400;
+  }
+  &__subheader {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  &__wrapper {
+    margin-top: 49px;
+    display: flex;
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    &_item {
+      font-size: 40px;
+      text-align: center;
+      color: #ffffff;
+      margin-right: 35px;
+    }
+  }
+}

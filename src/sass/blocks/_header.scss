@@ -72,28 +72,10 @@ header {
       font-size: 20px;
       font-weight: 400;
       margin-right: 65px;
-    }
-    .donation {
-      width: 251px;
-      height: 66px;
-      border: 1px solid #ffffff;
-      text-decoration: none;
-      text-align: center;
-      font-family: Roboto;
-      font-size: 20px;
-      font-weight: 400;
-      background-color: transparent;
-      transition: 0.2s linear;
+      transition: 0.1s linear;
       &:hover {
-        background-color: #ffffff;
-        color: #000000;
-      }
-      a {
-        text-decoration: none;
         color: #ffffff;
-        &:hover {
-          color: black;
-        }
+        font-size: 22px;
       }
     }
   }
@@ -103,5 +85,6 @@ header {
 }
 .white {
   font-size: 19px;
+
   color: #ffffff;
 }
