@@ -10,21 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/RedFoxTrue/veteran.git"
   },
-  "author": "Yuri Nemirich",
+  "author": "Nemirich Yuri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RedFoxTrue/veteran/issues"
   },
   "homepage": "https://github.com/RedFoxTrue/veteran#readme",
-  "dependencies": {
-    "-": "0.0.1"
-  },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
